@@ -1,0 +1,11 @@
+Media Mensal = 
+
+// Como Calcular a Média Mensal (AVERAGEX e VALUES)
+//DATAB - KARINE LAGO - YOUTUBE - 08/01/2018
+
+AVERAGEX(
+    VALUES(
+        dCalendario[Mês]
+    ), 
+    [Custos Leads]
+)
